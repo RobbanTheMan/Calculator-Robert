@@ -5,8 +5,10 @@ public class main {
 		
 		calculator calculator = new calculator();
 		
-		System.out.println(calculator.addition(2, 2));
-		
+		System.out.println(calculator.add(2, 2));
+		System.out.println(calculator.sub(5, 2));
+		System.out.println(calculator.multi(3, 2));
+		System.out.println(calculator.div(6, 2));
 
 	}
 

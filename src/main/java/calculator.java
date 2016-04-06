@@ -18,6 +18,7 @@ public class calculator {
 		div = first / secound;
 		return div;
 	}
+	
 	public double multi(double first, double secound){
 		double multi;
 		multi = first * secound;
