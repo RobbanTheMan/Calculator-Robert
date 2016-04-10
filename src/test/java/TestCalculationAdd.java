@@ -17,17 +17,17 @@ public class TestCalculationAdd {
 
 	@Test
 	public void testPositive() {
-		assertEquals(10,calculator.add(5, 5), 0d);
+		assertEquals("Det förväntade resultatet ska bli:10", 10 ,calculator.add(5, 5), 0d);
 		
 	}
 	@Test
 	public void testNegative() {
-		assertEquals(-10,calculator.add(-5, -5), 0d);
+		assertEquals("Det förväntade resultatet ska bli:-10",-10,calculator.add(-5, -5), 0d);
 		
 	}
 	@Test
 	public void testDecimal() {
-		assertEquals(11,calculator.add(5.5, 5.5), 0d);
+		assertEquals("Det förväntade resultatet ska bli:11",11,calculator.add(5.5, 5.5), 0d);
 	}
 }
 
